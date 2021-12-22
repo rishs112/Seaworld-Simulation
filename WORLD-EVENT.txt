@@ -1,0 +1,19 @@
+Created the Monster and Crab Interactions and made the classes and the animations of the different entities
+Made the interactions of Monster creating a purple path in the virtual world and making the purple background barrier.
+
+This event is triggered with a mouse click at any point in the Virtual World. The Monster moves once a Crab is created anywhere on 
+world.
+
+The Project is an improvement of the project provided in CPE 203. It follows Single Step Pathing Strategy. Once the Monster spawns with a click, it will
+find the nearest Crab and travel towards it. While travelling, it leaves a purple goo that trails the Monster and becomes an impenetrable
+barrier. One the Monster finds the Crab, they both fuse and transform into a Monster Seagrass. This particular Seagrass is mutated and
+follows the similar things that Sgrasses do however fish are created at a rapid pace. This creates the chaos that is expected since
+introducing a Monster creates too many unwanted things.
+
+The affected entity is the crab and gets transformed into a Monster Seagrass. The entities should also not be able to pass through the purple barrier created by the Monster.
+
+New entity that is created is the Monster Seagrass which spits out Fishes faster than Normal Seagrass. This ensures that there is a steady
+cycle where not all the seagrass are destroyed. Furthermore, the Monster Seagrass is muutated and cannot be destroyed at all, even by 
+Crabs. Therefore the Octopus can multiply and take care of the access of fishes that come by.
+
+Unfixed - Entities still passing through Purple Background
